@@ -122,7 +122,7 @@ public class SES {
             return;
         }
 
-        // Store one balance per user in an ArrayList at the same index as users.
+        
         ArrayList<Double> balances = new ArrayList<>();
         for (int i = 0; i < users.size(); i++)
             balances.add(0.0);
